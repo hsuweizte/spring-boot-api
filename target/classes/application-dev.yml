@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: info
+    com.lrm: debug
+  file:
+    name: devlog/my.log

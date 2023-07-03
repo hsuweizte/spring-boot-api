@@ -1,0 +1,129 @@
+2023-06-27T01:04:15.708+08:00  INFO 11192 --- [main] com.hsuweizte.SpringBootApiApplication   : Starting SpringBootApiApplication using Java 20.0.1 with PID 11192 (D:\java-source-code\Spring\spring-boot, lrm\spring-boot-api\target\classes started by hsuwe in D:\java-source-code\Spring\spring-boot, lrm\spring-boot-api)
+2023-06-27T01:04:15.710+08:00  INFO 11192 --- [main] com.hsuweizte.SpringBootApiApplication   : The following 1 profile is active: "dev"
+2023-06-27T01:04:16.608+08:00  INFO 11192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-27T01:04:16.679+08:00  INFO 11192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2023-06-27T01:04:17.452+08:00  INFO 11192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-27T01:04:17.463+08:00  INFO 11192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-27T01:04:17.463+08:00  INFO 11192 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-27T01:04:17.549+08:00  INFO 11192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-27T01:04:17.549+08:00  INFO 11192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1782 ms
+2023-06-27T01:04:17.768+08:00  INFO 11192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-27T01:04:17.845+08:00  INFO 11192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-27T01:04:17.848+08:00  INFO 11192 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-27T01:04:18.011+08:00  INFO 11192 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-27T01:04:18.219+08:00  INFO 11192 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-27T01:04:18.241+08:00  INFO 11192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-27T01:04:18.747+08:00  INFO 11192 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51813065
+2023-06-27T01:04:18.750+08:00  INFO 11192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-27T01:04:18.836+08:00  INFO 11192 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-27T01:04:19.076+08:00  INFO 11192 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-27T01:04:19.782+08:00  INFO 11192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-27T01:04:19.868+08:00  INFO 11192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-27T01:04:20.266+08:00  WARN 11192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-27T01:04:20.880+08:00  INFO 11192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-27T01:04:20.888+08:00  INFO 11192 --- [main] com.hsuweizte.SpringBootApiApplication   : Started SpringBootApiApplication in 5.931 seconds (process running for 6.645)
+2023-06-27T01:04:33.482+08:00  INFO 11192 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-27T01:04:33.483+08:00  INFO 11192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-27T01:04:33.489+08:00  INFO 11192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-27T01:05:27.667+08:00  INFO 6504 --- [main] com.hsuweizte.SpringBootApiApplication   : Starting SpringBootApiApplication using Java 20.0.1 with PID 6504 (D:\java-source-code\Spring\spring-boot, lrm\spring-boot-api\target\classes started by hsuwe in D:\java-source-code\Spring\spring-boot, lrm\spring-boot-api)
+2023-06-27T01:05:27.670+08:00  INFO 6504 --- [main] com.hsuweizte.SpringBootApiApplication   : The following 1 profile is active: "dev"
+2023-06-27T01:05:28.428+08:00  INFO 6504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-27T01:05:28.488+08:00  INFO 6504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-06-27T01:05:29.201+08:00  INFO 6504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-27T01:05:29.209+08:00  INFO 6504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-27T01:05:29.210+08:00  INFO 6504 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-27T01:05:29.287+08:00  INFO 6504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-27T01:05:29.288+08:00  INFO 6504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1574 ms
+2023-06-27T01:05:29.480+08:00  INFO 6504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-27T01:05:29.546+08:00  INFO 6504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-27T01:05:29.549+08:00  INFO 6504 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-27T01:05:29.703+08:00  INFO 6504 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-27T01:05:29.910+08:00  INFO 6504 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-27T01:05:29.926+08:00  INFO 6504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-27T01:05:30.243+08:00  INFO 6504 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51813065
+2023-06-27T01:05:30.245+08:00  INFO 6504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-27T01:05:30.312+08:00  INFO 6504 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-27T01:05:30.517+08:00  INFO 6504 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-27T01:05:31.137+08:00  INFO 6504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-27T01:05:31.191+08:00  INFO 6504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-27T01:05:31.572+08:00  WARN 6504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-27T01:05:32.088+08:00  INFO 6504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-27T01:05:32.095+08:00  INFO 6504 --- [main] com.hsuweizte.SpringBootApiApplication   : Started SpringBootApiApplication in 5.031 seconds (process running for 5.651)
+2023-06-27T01:07:19.575+08:00  INFO 6504 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-27T01:07:19.575+08:00  INFO 6504 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-27T01:07:19.576+08:00  INFO 6504 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-27T01:07:30.205+08:00  INFO 6504 --- [http-nio-8080-exec-3] com.hsuweizte.aspect.LogAspect           : Rquest  ----- ReqeustLog{url='http://localhost:8080/api/v1/books', ip='0:0:0:0:0:0:0:1', classMethod='com.hsuweizte.api.BookApi.listAllBooks', args=[]}
+2023-06-27T01:07:30.359+08:00  INFO 6504 --- [http-nio-8080-exec-3] com.hsuweizte.aspect.LogAspect           : Return ------ <200 OK OK,[Book{id=1, author='楊絳', description='這是一本小說，不錯。推薦你閱讀', name='我們仨', status=1}, Book{id=2, author='劉慈欣', description='一本科幻小說', name='時間移民', status=2}, Book{id=4, author='簡·麥戈尼格爾 ', description='遊戲是我們集中精力的大好機會，我們樂觀向上地做著一件自己擅長並享受的事情', name='遊戲改變世界', status=0}, Book{id=5, author='彼得·蒂爾 / 布萊克·馬斯特斯 ', description='幫助你思考從0到1的秘密，在意想不到之處發現價值與機會', name='從0到1', status=2}, Book{id=6, author='[美] 德內拉·梅多斯 ', description='是一本簡明扼要的系統思考入門指南，也是認識複雜動態系統的有力工具', name='系統之美', status=1}, Book{id=7, author='彼得•邁爾斯 (Peter Meyers) / 尚恩•尼克', description='通過演講一舉贏得支持實現夢想', name='高效演講', status=0}, Book{id=8, author='凱文·凱利', description='經濟和社會發展的趨勢有著深刻的見解', name='必然', status=2}, Book{id=9, author='凱文·凱利', description='這可能是90年代最重要的一本書', name='失控', status=1}, Book{id=10, author='李笑來', description='時間管理不了，只能管理自己', name='把時間當作朋友', status=2}, Book{id=11, author='李笑來', description='七年就是一輩子', name='七年就是一輩子', status=1}, Book{id=12, author='王東岳', description='一本哲理隨筆，匯集了作者數十年的思想精髓。哲學', name='知魚之樂', status=0}, Book{id=13, author='王東岳', description='一本哲學書', name='物演通論', status=0}, Book{id=14, author='查理·芒格', description='收錄了查理•芒格的個人傳記與投資哲學', name='窮查理寶典', status=1}, Book{id=15, author='Andy Hunt ', description='思考如何解決問題', name='程序員思維修煉', status=2}, Book{id=16, author='Andy Hunt ', description='學有所思，思有所悟，悟有所行', name='高效程序員的45個習慣', status=1}, Book{id=17, author='格雷厄姆', description='主要介紹黑客即優秀程序員的愛好和動機', name='黑客與畫家', status=0}, Book{id=18, author='安德斯•艾利克森', description='如何學習一項技能的方法', name='刻意練習', status=2}, Book{id=19, author='李善友', description='關於創業的方法論', name='創業方法論', status=1}, Book{id=20, author='李笑來', description='這是一本不錯的書', name='和時間做朋友', status=0}, Book{id=21, author='張三', description='我隨便寫的一個書', name='私生活', status=0}],[]>
+2023-06-27T01:07:48.541+08:00  INFO 6504 --- [http-nio-8080-exec-4] com.hsuweizte.aspect.LogAspect           : Rquest  ----- ReqeustLog{url='http://localhost:8080/api/v1/books/1', ip='0:0:0:0:0:0:0:1', classMethod='com.hsuweizte.api.BookApi.getBook', args=[1]}
+2023-06-27T01:07:48.554+08:00  INFO 6504 --- [http-nio-8080-exec-4] com.hsuweizte.aspect.LogAspect           : Return ------ <200 OK OK,Book{id=1, author='楊絳', description='這是一本小說，不錯。推薦你閱讀', name='我們仨', status=1},[]>
+2023-06-27T01:07:48.570+08:00 ERROR 6504 --- [http-nio-8080-exec-4] c.hsuweizte.handler.ApiExceptionHandler  : Error ---- {}
+
+org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:489)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:297)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.hsuweizte.domain.Book$HibernateProxy$J1M96iYQ["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1312)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:53)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:30)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:479)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:318)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1572)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	... 48 common frames omitted
+
+2023-06-27T01:08:02.674+08:00  INFO 6504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-27T01:08:02.677+08:00  INFO 6504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-27T01:08:02.684+08:00  INFO 6504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
