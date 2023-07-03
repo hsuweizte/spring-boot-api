@@ -9,12 +9,6 @@
     <packaging>jar</packaging>
 
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
-
-
     <name>spring-boot-api</name>
     <description>Demo project for Spring Boot</description>
 
@@ -25,9 +19,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>

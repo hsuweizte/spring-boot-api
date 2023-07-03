@@ -186,3 +186,24 @@ java.lang.ArithmeticException: / by zero
 2023-07-03T17:42:06.507+08:00  INFO 9848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-07-03T17:42:06.511+08:00  INFO 9848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-07-03T17:42:06.519+08:00  INFO 9848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-03T18:08:23.052+08:00  INFO 16800 --- [main] c.h.SpringBootApiApplicationTests        : Starting SpringBootApiApplicationTests using Java 17.0.7 with PID 16800 (started by hsuwe in D:\java-source-code\spring-boot-api)
+2023-07-03T18:08:23.054+08:00  INFO 16800 --- [main] c.h.SpringBootApiApplicationTests        : The following 1 profile is active: "dev"
+2023-07-03T18:08:24.093+08:00  INFO 16800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-03T18:08:24.160+08:00  INFO 16800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-07-03T18:08:24.904+08:00  INFO 16800 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-03T18:08:24.979+08:00  INFO 16800 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-03T18:08:24.982+08:00  INFO 16800 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-03T18:08:25.243+08:00  INFO 16800 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-03T18:08:25.418+08:00  INFO 16800 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-03T18:08:25.442+08:00  INFO 16800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-03T18:08:25.845+08:00  INFO 16800 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bc8d68b
+2023-07-03T18:08:25.848+08:00  INFO 16800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-03T18:08:25.921+08:00  INFO 16800 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-03T18:08:26.275+08:00  INFO 16800 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-03T18:08:27.049+08:00  INFO 16800 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-03T18:08:27.104+08:00  INFO 16800 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-03T18:08:27.855+08:00  WARN 16800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-03T18:08:28.518+08:00  INFO 16800 --- [main] c.h.SpringBootApiApplicationTests        : Started SpringBootApiApplicationTests in 6.031 seconds (process running for 7.433)
+2023-07-03T18:08:29.351+08:00  INFO 16800 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-03T18:08:29.353+08:00  INFO 16800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-03T18:08:29.363+08:00  INFO 16800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
