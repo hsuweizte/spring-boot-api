@@ -5,27 +5,27 @@
 ## 1、URL請求
 
 ```
-GET http://localhost:8080/api/v1/books  讀書單列表
+GET http://localhost:8080/books  讀書單列表
 ```
 
 ```
-GET http://localhost:8080/api/v1/books/{id} 獲取一條書單
+GET http://localhost:8080/books/{id} 獲取一條書單
 ```
 
 ```
-POST http://localhost:8080/api/v1/books 新增一條書單
+POST http://localhost:8080/books 新增一條書單
 ```
 
 ```
-PUT http://localhost:8080/api/v1/books/{id} 更新一條書單
+PUT http://localhost:8080/books/{id} 更新一條書單
 ```
 
 ```
-DELETE http://localhost:8080/api/v1/books/{id} 刪除一條書單
+DELETE http://localhost:8080/books/{id} 刪除一條書單
 ```
 
 ```
-DELETE http://localhost:8080/api/v1/books 刪除所有書單
+DELETE http://localhost:8080/books 刪除所有書單
 ```
 
 
