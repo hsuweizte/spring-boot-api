@@ -44,7 +44,7 @@ public class BookApi {
     @PostMapping("/books")
     public ResponseEntity<?> saveBook(@Valid @RequestBody com.hsuweizte.dto.BookDTO bookDTO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            throw new com.hsuweizte.exception.InvalidRequestException("Invalid parameter", bindingResult);
+            throw new InvalidRequestException("Invalid parameter", bindingResult);
         }
         Book book1 = bookService.saveBook(bookDTO.convertToBook());
         return new ResponseEntity<Object>(book1, HttpStatus.CREATED);
