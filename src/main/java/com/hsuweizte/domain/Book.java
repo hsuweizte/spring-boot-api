@@ -22,15 +22,4 @@ public class Book {
     private String name;
     private Integer status;
 
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                "id=" + id +
-                ", author='" + author + '\'' +
-                ", description='" + description + '\'' +
-                ", name='" + name + '\'' +
-                ", status=" + status +
-                '}';
-    }
 }
