@@ -14,6 +14,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -31,20 +32,28 @@ public class BookApi {
         return new ResponseEntity<List<Book>>(books, HttpStatus.OK);
     }
 
+    @PostMapping("/test")
+    public void test(@RequestBody Map<String, String> map) {
+        String a = map.get("a");
+        String b = map.get("b");
+        System.out.println(a + " and " + b);
+    }
+
+
     @GetMapping("/books/{id}")
     public ResponseEntity<?> getBook(@PathVariable Long id) {
 
         com.hsuweizte.domain.Book book = bookService.getBookById(id);
         if (book == null) {
-            throw new com.hsuweizte.exception.NotFoundException(String.format("book by id %s not found", id));
+            throw new NotFoundException(String.format("book by id %s not found", id));
         }
         return new ResponseEntity<Object>(book, HttpStatus.OK);
     }
 
     @PostMapping("/books")
-    public ResponseEntity<?> saveBook(@Valid @RequestBody com.hsuweizte.dto.BookDTO bookDTO, BindingResult bindingResult) {
+    public ResponseEntity<?> saveBook(@Valid @RequestBody BookDTO bookDTO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            throw new com.hsuweizte.exception.InvalidRequestException("Invalid parameter", bindingResult);
+            throw new InvalidRequestException("Invalid parameter", bindingResult);
         }
         Book book1 = bookService.saveBook(bookDTO.convertToBook());
         return new ResponseEntity<Object>(book1, HttpStatus.CREATED);
