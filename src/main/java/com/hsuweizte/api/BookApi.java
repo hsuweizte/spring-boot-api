@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping()
 public class BookApi {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
     @Autowired
