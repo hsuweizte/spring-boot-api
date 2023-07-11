@@ -43,7 +43,7 @@ public class BookApi {
     @GetMapping("/books/{id}")
     public ResponseEntity<?> getBook(@PathVariable Long id) {
 
-        com.hsuweizte.domain.Book book = bookService.getBookById(id);
+        Book book = bookService.getBookById(id);
         if (book == null) {
             throw new NotFoundException(String.format("book by id %s not found", id));
         }
