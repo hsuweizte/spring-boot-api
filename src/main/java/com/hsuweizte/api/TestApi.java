@@ -8,7 +8,6 @@ import java.util.Date;
 import java.util.Map;
 
 @RestController
-public class TestApi {
     @PostMapping("/test")
     public String test(@RequestBody Map<String, String> email) {
         Date expireDate =
