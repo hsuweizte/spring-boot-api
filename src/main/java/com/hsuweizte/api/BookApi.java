@@ -14,7 +14,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping()
@@ -30,13 +29,6 @@ public class BookApi {
             throw new NotFoundException("Books Not Found");
         }
         return new ResponseEntity<List<Book>>(books, HttpStatus.OK);
-    }
-
-    @PostMapping("/test")
-    public void test(@RequestBody Map<String, String> map) {
-        String a = map.get("a");
-        String b = map.get("b");
-        System.out.println(a + " and " + b);
     }
 
 
