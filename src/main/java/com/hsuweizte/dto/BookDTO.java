@@ -16,13 +16,10 @@ import org.springframework.beans.BeanUtils;
 @AllArgsConstructor
 public class BookDTO {
 
-    @NotBlank
     private String author;
     @Length(max = 20)
     private String description;
-    @NotBlank
     private String name;
-    @NotNull
     private Integer status;
 
 
