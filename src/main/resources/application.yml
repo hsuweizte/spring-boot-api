@@ -13,6 +13,9 @@ spring:
   profiles:
     active: dev
 
+
+server:
+  port: 8080
 #logging:
 #  config: classpath:logback-custom.xml
 

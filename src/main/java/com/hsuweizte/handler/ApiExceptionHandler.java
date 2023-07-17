@@ -43,9 +43,9 @@ public class ApiExceptionHandler {
         List<FieldError> fieldErrors = errors.getFieldErrors();
         for (FieldError fieldError : fieldErrors) {
             FieldResource fieldResource = new FieldResource(fieldError.getObjectName(),
-                            fieldError.getField(),
-                            fieldError.getCode(),
-                            fieldError.getDefaultMessage());
+                    fieldError.getField(),
+                    fieldError.getCode(),
+                    fieldError.getDefaultMessage());
 
             fieldResources.add(fieldResource);
         }
